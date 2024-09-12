@@ -1,0 +1,146 @@
+﻿Ideas for Tables
+* Patients
+   * First Name P
+   * Last Name P
+   * Date of Birth P
+   * Weight P
+   * Height P
+   * Gender P
+   * Phone Number P
+   * The problem being consulted (connected between patients and medical records) F
+   * Patient ID F
+   * Insurance P
+   * Emergency contact info P
+
+
+* Medical records (Connected by patient ID)
+   * Patient ID F
+   * Medication ID F
+   * Prescription ID F
+   * Treatments P
+   * Medical Exams (checkups) P
+   * Allergies P
+   * Previous history of illnesses P
+   * Date admitted (time) P
+   * Date Checkout (time) P
+   * Diagnosis Discovery P
+   * Appointment Log (connects to Appointment) F
+   * Braden Scale P
+   * Dimensional Anhedonia Rating Scale P
+   * Medical Imagery and where it was used P
+
+
+* Appointment
+   * Prescription ID F
+   * Patient ID F
+   * Consultations P
+   * Bookings P
+   * Diagnosis Admittance P
+   * Status of appointment (Scheduled, completed or cancelled) P
+   * Attending doctor ID F
+
+
+* Doctor
+   * First Name P
+   * Last Name P
+   * Phone Number P
+   * Address P
+   * Specialization (Physician or Optometric etc) P
+   * History of Patients P
+   * Doctor ID F
+   * Shift ID P
+   * Shift Clock-in P
+   * Shift Clock-out P
+   * Emergency contact info P
+
+
+* Prescription Table
+   * Precription ID F
+   * Patient ID F
+   * Doctor ID F
+   * Medication P
+   * Dosage P
+   * Start Date P
+   * End Date P
+   * Additional Notes P
+
+
+* Staff
+   * First Name P
+   * Last Name P
+   * Phone number P
+   * Address (maybe) P
+   * Role P
+      * Nurse
+      * Receptionists
+      * Security
+      * Custodians
+      * etc.
+   * Staff ID P
+   * Shift Clock-in P
+   * Shift Clock-out P
+   * Emergency contact info P
+
+
+* Inventory  (F needed)
+   * Item checked out P
+   * Item checked in P
+   * Item name P
+   * Quantity of item P
+   * Supplier name P
+   * Unusable items (Waste or broken items) P
+
+
+* Feedback
+   * Feedback ID P
+   * Patient ID F
+   * Doctor ID F
+   * Feedback Date P
+   * Rating (1-5 stars) P
+   * Patient Comment P
+
+
+* Emergency Handover to Hospital
+   * Emergency Record ID P
+   * Patient ID F
+   * Doctor ID F
+   * Clinic Name P
+   * Description of emergency P
+   * Reason for handover P
+   * Medical Record (Connects to medical record table) F
+   * The hospital sent P
+   * Date sent P
+
+
+* Medication
+   * Medication ID F
+   * Prescription ID F
+   * Medication Name P
+   * Dosage P
+   * Frequency (e.g., once a day, twice a day) P
+   * Start Date P
+   * End Date P
+   * Quantity Dispensed P
+   * Refills Available P
+   * Inventory ID F
+
+
+
+
+Primary keys
+database
+  
+
+  
+
+  
+
+
+
+Database Design - Rough work
+
+
+        //requirements by TA
+* Primary keys
+* Foreign keys
+* Description
