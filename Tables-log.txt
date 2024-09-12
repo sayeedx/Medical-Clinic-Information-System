@@ -1,4 +1,3 @@
-﻿Ideas for Tables
 * Patients
    * First Name P
    * Last Name P
@@ -11,7 +10,6 @@
    * Patient ID F
    * Insurance P
    * Emergency contact info P
-
 
 * Medical records (Connected by patient ID)
    * Patient ID F
@@ -29,7 +27,6 @@
    * Dimensional Anhedonia Rating Scale P
    * Medical Imagery and where it was used P
 
-
 * Appointment
    * Prescription ID F
    * Patient ID F
@@ -38,7 +35,6 @@
    * Diagnosis Admittance P
    * Status of appointment (Scheduled, completed or cancelled) P
    * Attending doctor ID F
-
 
 * Doctor
    * First Name P
@@ -53,7 +49,6 @@
    * Shift Clock-out P
    * Emergency contact info P
 
-
 * Prescription Table
    * Precription ID F
    * Patient ID F
@@ -63,7 +58,6 @@
    * Start Date P
    * End Date P
    * Additional Notes P
-
 
 * Staff
    * First Name P
@@ -81,7 +75,6 @@
    * Shift Clock-out P
    * Emergency contact info P
 
-
 * Inventory  (F needed)
    * Item checked out P
    * Item checked in P
@@ -90,7 +83,6 @@
    * Supplier name P
    * Unusable items (Waste or broken items) P
 
-
 * Feedback
    * Feedback ID P
    * Patient ID F
@@ -98,7 +90,6 @@
    * Feedback Date P
    * Rating (1-5 stars) P
    * Patient Comment P
-
 
 * Emergency Handover to Hospital
    * Emergency Record ID P
@@ -111,7 +102,6 @@
    * The hospital sent P
    * Date sent P
 
-
 * Medication
    * Medication ID F
    * Prescription ID F
@@ -123,24 +113,3 @@
    * Quantity Dispensed P
    * Refills Available P
    * Inventory ID F
-
-
-
-
-Primary keys
-database
-  
-
-  
-
-  
-
-
-
-Database Design - Rough work
-
-
-        //requirements by TA
-* Primary keys
-* Foreign keys
-* Description
