@@ -31,7 +31,7 @@ The project is structured around three main categories:
 
 The ER model diagram for the Medical Clinic Information System is shown below:
 
-<img src="./A2%20ER%20Model.jpg" alt="ER Model Diagram" width="600" height="400" />
+<img src="./A2%20ER%20Model%20_white.jpg" alt="ER Model Diagram" width="600" height="400" />
 
 ## Patient Management
 This module centralizes patient data, including personal information, medical records, and emergency handovers. This data is crucial for personalized medical care, making it accessible to doctors and clinical staff in real time.
