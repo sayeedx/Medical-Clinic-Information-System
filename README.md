@@ -60,4 +60,33 @@ Stores all information related to clinic doctors.
 ### Prescriptions
 Contains all prescriptions issued to patients.
 - **Fields**: `PrescriptionID (P)`, `PatientID (F)`, `DoctorID (F)`, `Medication`, `Dosage`, `StartDate`, `EndDate`, `Notes`, `Quantity`, `Refills`.
-- **Functionality**: Tracks prescriptions to ensure patients receive
+- **Functionality**: Tracks prescriptions to ensure patients receive the correct medication.
+
+### Staff
+Contains details about clinic staff (excluding doctors).
+- **Fields**: `StaffID (P)`, `FirstName`, `LastName`, `PhoneNum`, `Address`, `Role`, `ShiftID`, `ShiftIn`, `ShiftOut`, `EmergencyContact`.
+- **Functionality**: Helps manage staff schedules and resource allocation.
+
+### Inventory
+Manages clinic inventory, ensuring availability of essential items.
+- **Fields**: `ItemID (P)`, `ItemOut`, `ItemIn`, `ItemName`, `Quantity`, `Supplier`, `Waste`.
+- **Functionality**: Tracks item quantities and suppliers, ensuring optimal stock levels.
+
+### Feedback
+Captures patient feedback to assess clinic performance.
+- **Fields**: `FeedbackID (P)`, `PatientID (F)`, `DoctorID (F)`, `Date`, `Rating`, `Comments`.
+- **Functionality**: Collects feedback for service improvement and quality assurance.
+
+### Emergency Handover
+Manages emergency patient transfers to external facilities.
+- **Fields**: `RecordID (P)`, `PatientID (F)`, `DoctorID (F)`, `ClinicName`, `Description`, `Facility`, `Date`.
+- **Functionality**: Facilitates the transfer of patients to other medical facilities during emergencies.
+
+## Basic Functions
+The system supports several key functions to streamline clinic operations:
+- **Add New Patient**: Registers a new patient in the system.
+- **Prescribe Medication**: Issues prescriptions to patients, tracking dosage and refill info.
+- **Schedule Appointments**: Allows staff to create, confirm, or cancel appointments.
+- **Check Stock**: Monitors and manages inventory levels.
+- **Register Stock**: Registers new stock, triggering replenishment orders as needed.
+- **Handover Patient**: Manages emergency patient transfers
