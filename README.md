@@ -20,7 +20,7 @@
 8. [Volume of Data the Application Will Handle](#volume-of-data-the-application-will-handle)
 
 ## Introduction
-Millions of medical clinics globally rely on information systems to improve their operations and reduce administrative burdens. Our team has developed the **A1: Medical Clinic Information System**, designed to solve prevalent issues in clinics like data security, real-time access, patient involvement, and more. This system enhances traditional clinic systems with added functionality such as patient feedback management and emergency handovers.
+Millions of medical clinics globally rely on information systems to improve their operations and reduce administrative burdens. Our team has developed the **Medical Clinic Information System**, designed to solve prevalent issues in clinics like data security, real-time access, patient involvement, and more. This system enhances traditional clinic systems with added functionality such as patient feedback management and emergency handovers.
 
 The project is structured around three main categories:
 1. **Patient Management**: Manages patient information, medical records, and emergency handovers.
