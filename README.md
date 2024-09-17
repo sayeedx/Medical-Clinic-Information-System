@@ -1,4 +1,4 @@
-# A1: Medical Clinic Information System
+# Medical Clinic Information System
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -89,4 +89,18 @@ The system supports several key functions to streamline clinic operations:
 - **Schedule Appointments**: Allows staff to create, confirm, or cancel appointments.
 - **Check Stock**: Monitors and manages inventory levels.
 - **Register Stock**: Registers new stock, triggering replenishment orders as needed.
-- **Handover Patient**: Manages emergency patient transfers
+- **Handover Patient**: Manages emergency patient transfers with detailed medical information.
+
+## Volume of Data the Application Will Handle
+The system is designed to handle the following estimated volumes of data:
+- **Patients**: ~830 records
+- **Medical Records**: ~8,300 records
+- **Appointments**: ~4,150 appointments annually
+- **Doctors**: ~8 records
+- **Prescriptions**: ~16,500 prescriptions per year
+- **Staff**: ~16 records
+- **Inventory**: ~41 items with transaction history
+- **Feedback**: ~833 feedback entries annually
+- **Emergency Handovers**: ~83 handovers annually
+
+Overall, the system is designed to manage a large volume of data efficiently, ensuring scalability and performance for growing clinics.
